@@ -17,7 +17,7 @@ export default function ScraperForm() {
     setLoading(true)
 
     try {
-      const response = await fetch('/scrape', {
+      const response = await fetch('https://mcflyscrap3.onrender.com', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
